@@ -1,0 +1,49 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open calculadora.html",
+            "file": "c:\\Users\\Daniel\\Documents\\GitHub\\practica-02\\Calculadora\\calculadora.html"
+        },
+        {
+            "name": "Launch built-in server and Debug",
+            "detail": "Launches PHP's built-in development server and starts debugging. (Root: \".\")",
+            "type": "php",
+            "request": "launch",
+            "noDebug": false,
+            "runtimeArgs": [
+                "-S",
+                "localhost:8000",
+                "-t",
+                "."
+            ],
+            "serverReadyAction": {
+                "action": "openExternally"
+            }
+        },
+        {
+            "name": "Listen for Xdebug",
+            "detail": "Waits for requests to debug.",
+            "type": "php",
+            "request": "launch"
+        },
+        {
+            "name": "Launch built-in server and Debug",
+            "detail": "Launches PHP's built-in development server and starts debugging. (Root: \".\")",
+            "type": "php",
+            "request": "launch",
+            "noDebug": false,
+            "runtimeArgs": [
+                "-S",
+                "localhost:8000",
+                "-t",
+                "."
+            ],
+            "serverReadyAction": {
+                "action": "openExternally"
+            }
+        }
+    ]
+}
